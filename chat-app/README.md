@@ -10,7 +10,7 @@
 	  id SERIAL PRIMARY KEY,
 	  username VARCHAR(28) NOT NULL UNIQUE,
 	  password_hashed VARCHAR NOT NULL,
-	  userId VARCHAR NOT NULL
+	  userid VARCHAR NOT NULL
   )
         </pre>
         </li>
