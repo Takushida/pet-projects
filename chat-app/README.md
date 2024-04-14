@@ -1,4 +1,19 @@
 <h1>Chat application</h1>
+<h2>Run code</h2>
+<p>Database files aren't included in this repo</p>
+<ol>
+  <li>Run redis</li>
+  <li>Run server side for development (localhost:4000):
+  <pre>
+    cd ./backend/ 
+    npm run dev</pre>
+  </li>
+  <li>Run client side (localhost:3000):
+  <pre>
+    cd ./client/
+    npm start</pre>
+  </li>
+</ol>
 <h2>Technologies:</h2>
 <ul>
   <li><h3>Backend:</h3>
