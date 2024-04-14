@@ -4,7 +4,7 @@
   <li>
     <ul>
       <li>Create PostgreSQL database titled <strong>chat-app</strong>
-        <li>Run script in the query: 
+        <li>Run script in the query of the chat-app database: 
         <pre>
   CREATE TABLE users(
 	  id SERIAL PRIMARY KEY,
