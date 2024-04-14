@@ -1,7 +1,22 @@
 <h1>Chat application</h1>
 <h2>Run code</h2>
-<p>Database files aren't included in this repo</p>
 <ol>
+  <li>
+    <ul>
+      <li>Create PostgreSQL database titled <strong>chat-app</strong>
+        <li>Run script in the query: 
+        <pre>
+  CREATE TABLE users(
+	  id SERIAL PRIMARY KEY,
+	  username VARCHAR(28) NOT NULL UNIQUE,
+	  password_hashed VARCHAR NOT NULL,
+	  userId VARCHAR NOT NULL
+  )
+        </pre>
+        </li>
+      <li>Edit /server/.env configuration file (Set your settings of PostgreSQL if they differ)</li>
+    </ul>
+  </li>
   <li>Run redis</li>
   <li>Run server side for development (localhost:4000):
   <pre>
